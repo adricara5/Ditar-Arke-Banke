@@ -56,7 +56,7 @@ report 50140 "Mektrin Cash/Bank Journal"
             dataitem(Contact; Contact)
             {
                 RequestFilterFields = "Date Filter";
-                DataItemLink = "No." = field("Posting Date");
+                DataItemLink = "No." = field("Bank Account No.");
                 column(Date_Filter; "Date Filter")
                 {
                     IncludeCaption = true;
